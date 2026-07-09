@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pramodh Kumar S. — Software QA Engineer</title>
+<meta name="description" content="Pramodh Kumar S. — Software QA Engineer with 2 years at Amazon. Manual testing, Selenium automation, API testing, and QA frameworks.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<div class="scanline" aria-hidden="true"></div>
+
+<!-- ================= NAV ================= -->
+<header class="topbar">
+  <div class="container topbar-inner">
+    <a href="#top" class="brand">
+      <span class="brand-dot" aria-hidden="true"></span>
+      pramodh-kumar<span class="brand-muted">/portfolio</span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="tabs" id="tabs">
+      <a href="#about" class="tab">whoami</a>
+      <a href="#experience" class="tab">experience<span class="tab-ext">.log</span></a>
+      <a href="#skills" class="tab">skills<span class="tab-ext">.json</span></a>
+      <a href="#projects" class="tab">projects<span class="tab-ext">/</span></a>
+      <a href="#contact" class="tab tab-cta">contact<span class="tab-ext">.sh</span></a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ================= HERO ================= -->
+  <section class="hero container">
+    <div class="hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow">Software QA Engineer · Chennai, IN</p>
+        <h1 class="display">Pramodh Kumar S.</h1>
+        <p class="hero-sub">
+          I break things on purpose — so customers never have to. Two years
+          testing Amazon-scale e-commerce systems, from a single test case
+          to a full automation pipeline.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">View test cases</a>
+          <a href="#contact" class="btn btn-ghost">Get in touch</a>
+        </div>
+      </div>
+
+      <div class="terminal" id="terminal">
+        <div class="terminal-chrome">
+          <span class="dot dot-red"></span>
+          <span class="dot dot-amber"></span>
+          <span class="dot dot-green"></span>
+          <span class="terminal-title">run — qa-portfolio.spec</span>
+        </div>
+        <div class="terminal-body" id="terminalBody">
+          <div class="line prompt-line"><span class="prompt">$</span> <span class="cmd" id="cmdText"></span><span class="type-cursor" id="typeCursor">▍</span></div>
+          <div class="terminal-results" id="terminalResults"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= ABOUT ================= -->
+  <section id="about" class="section container">
+    <p class="section-kicker">// whoami</p>
+    <h2 class="section-title">Summary</h2>
+    <p class="about-text">
+      Software Quality Assurance Engineer with 2 years of experience at
+      <strong>Amazon, Chennai</strong>, specializing in manual and automated
+      testing for high-traffic e-commerce and web platforms. Comfortable
+      owning a feature end to end — from writing the test plan, to building
+      the Selenium framework that regression-tests it, to filing the bug
+      report that gets it fixed before customers ever see it.
+    </p>
+    <div class="stat-row">
+      <div class="stat">
+        <span class="stat-num">2<span class="stat-unit">yrs</span></span>
+        <span class="stat-label">at Amazon</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num">150<span class="stat-unit">+</span></span>
+        <span class="stat-label">test cases authored</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num">5</span>
+        <span class="stat-label">shipped QA projects</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num">0</span>
+        <span class="stat-label">sev-1 escapes</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= EXPERIENCE ================= -->
+  <section id="experience" class="section container">
+    <p class="section-kicker">// experience.log</p>
+    <h2 class="section-title">Work History</h2>
+
+    <div class="log-entry">
+      <div class="log-meta">
+        <span class="log-timestamp"><!-- EDIT: exact dates -->2022 — 2024</span>
+        <span class="badge badge-pass">ACTIVE ROLE</span>
+      </div>
+      <h3 class="log-role">Software QA Engineer</h3>
+      <p class="log-company">Amazon · Chennai, India</p>
+      <ul class="log-list">
+        <li>Authored and executed 150+ manual test cases across login, cart, checkout, and payment flows for customer-facing e-commerce features.</li>
+        <li>Built and maintained Selenium (Java + TestNG) automation suites using the Page Object Model, cutting manual regression time each release cycle.</li>
+        <li>Performed API testing with Postman and Rest Assured — validating status codes, response schemas, and auth tokens across backend services.</li>
+        <li>Logged and triaged defects in Jira, working with developers from root cause to resolution; maintained Requirement Traceability Matrices for release sign-off.</li>
+        <li>Ran smoke, sanity, and regression cycles every sprint inside an Agile Scrum team.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ================= SKILLS ================= -->
+  <section id="skills" class="section container">
+    <p class="section-kicker">// skills.json</p>
+    <h2 class="section-title">Toolbox</h2>
+
+    <div class="skills-grid">
+      <div class="skill-card">
+        <h3 class="skill-cat"><span class="skill-key">"manual_testing"</span></h3>
+        <div class="tag-row">
+          <span class="tag">Test Case Design</span>
+          <span class="tag">Test Planning</span>
+          <span class="tag">Bug Reporting</span>
+          <span class="tag">Regression Testing</span>
+          <span class="tag">Smoke &amp; Sanity</span>
+          <span class="tag">Exploratory Testing</span>
+          <span class="tag">SDLC / STLC</span>
+          <span class="tag">Agile Scrum</span>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <h3 class="skill-cat"><span class="skill-key">"automation"</span></h3>
+        <div class="tag-row">
+          <span class="tag">Selenium WebDriver</span>
+          <span class="tag">Java</span>
+          <span class="tag">TestNG</span>
+          <span class="tag">Page Object Model</span>
+          <span class="tag">Data-Driven Framework</span>
+          <span class="tag">Maven</span>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <h3 class="skill-cat"><span class="skill-key">"api_testing"</span></h3>
+        <div class="tag-row">
+          <span class="tag">Postman</span>
+          <span class="tag">Rest Assured</span>
+          <span class="tag">Newman</span>
+          <span class="tag">JSON Schema Validation</span>
+          <span class="tag">Swagger</span>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <h3 class="skill-cat"><span class="skill-key">"database"</span></h3>
+        <div class="tag-row">
+          <span class="tag">SQL</span>
+          <span class="tag">MySQL</span>
+          <span class="tag">PostgreSQL</span>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <h3 class="skill-cat"><span class="skill-key">"devops_tools"</span></h3>
+        <div class="tag-row">
+          <span class="tag">Git</span>
+          <span class="tag">GitHub</span>
+          <span class="tag">Jenkins</span>
+          <span class="tag">Jira</span>
+          <span class="tag">Extent Reports</span>
+          <span class="tag">Log4j</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= PROJECTS ================= -->
+  <section id="projects" class="section container">
+    <p class="section-kicker">// projects/</p>
+    <h2 class="section-title">Test Cases That Shipped</h2>
+
+    <div class="project-list">
+
+      <article class="project-card reveal">
+        <div class="project-head">
+          <span class="tc-id">TC-01</span>
+          <span class="badge badge-pass">PASS</span>
+        </div>
+        <h3 class="project-title">E-commerce Web Application — Manual + Automation</h3>
+        <p class="project-desc">
+          End-to-end testing of a full e-commerce flow: login, registration,
+          search, cart, checkout, payment, and wishlist. Delivered as a
+          complete manual test cycle backed by a Selenium automation
+          framework.
+        </p>
+        <p class="project-deliverables"><strong>Deliverables:</strong> 150+ test cases, bug reports, Requirement Traceability Matrix, automation framework, execution reports.</p>
+        <div class="tag-row">
+          <span class="tag tag-sm">Selenium</span>
+          <span class="tag tag-sm">Java</span>
+          <span class="tag tag-sm">TestNG</span>
+          <span class="tag tag-sm">Maven</span>
+          <span class="tag tag-sm">Jira</span>
+        </div>
+        <a href="#" class="project-link"><!-- EDIT: link to repo -->View repository →</a>
+      </article>
+
+      <article class="project-card reveal">
+        <div class="project-head">
+          <span class="tc-id">TC-02</span>
+          <span class="badge badge-pass">PASS</span>
+        </div>
+        <h3 class="project-title">OrangeHRM Automation Suite</h3>
+        <p class="project-desc">
+          Data-driven Selenium framework automating login, employee
+          management, leave, and recruitment modules, wired into a Jenkins
+          CI pipeline with Allure reporting.
+        </p>
+        <div class="tag-row">
+          <span class="tag tag-sm">Selenium</span>
+          <span class="tag tag-sm">TestNG</span>
+          <span class="tag tag-sm">Page Object Model</span>
+          <span class="tag tag-sm">Jenkins</span>
+          <span class="tag tag-sm">Allure Reports</span>
+        </div>
+        <a href="#" class="project-link">View repository →</a>
+      </article>
+
+      <article class="project-card reveal">
+        <div class="project-head">
+          <span class="tc-id">TC-03</span>
+          <span class="badge badge-pass">PASS</span>
+        </div>
+        <h3 class="project-title">REST API Test Framework</h3>
+        <p class="project-desc">
+          API suite covering GET, POST, PUT, and DELETE across public APIs —
+          validating status codes, response time, JSON schema, and
+          authorization tokens.
+        </p>
+        <div class="tag-row">
+          <span class="tag tag-sm">Postman</span>
+          <span class="tag tag-sm">Newman</span>
+          <span class="tag tag-sm">Rest Assured</span>
+          <span class="tag tag-sm">JSON Schema</span>
+        </div>
+        <a href="#" class="project-link">View repository →</a>
+      </article>
+
+      <article class="project-card reveal">
+        <div class="project-head">
+          <span class="tc-id">TC-04</span>
+          <span class="badge badge-pass">PASS</span>
+        </div>
+        <h3 class="project-title">Automation Framework from Scratch</h3>
+        <p class="project-desc">
+          A hybrid framework built ground-up — page objects, utilities,
+          config-driven test data, logging, and reporting — wired into a
+          CI pipeline for every push.
+        </p>
+        <div class="tag-row">
+          <span class="tag tag-sm">Selenium</span>
+          <span class="tag tag-sm">Java</span>
+          <span class="tag tag-sm">Log4j</span>
+          <span class="tag tag-sm">Apache POI</span>
+          <span class="tag tag-sm">Extent Reports</span>
+          <span class="tag tag-sm">Jenkins</span>
+        </div>
+        <a href="#" class="project-link">View repository →</a>
+      </article>
+
+      <article class="project-card reveal">
+        <div class="project-head">
+          <span class="tc-id">TC-05</span>
+          <span class="badge badge-pass">PASS</span>
+        </div>
+        <h3 class="project-title">API + UI Hybrid Validation Flow</h3>
+        <p class="project-desc">
+          Create a user via API → validate the record in the database →
+          verify it through UI login and dashboard → clean up via API
+          deletion. Mirrors real production verification patterns end to
+          end.
+        </p>
+        <div class="tag-row">
+          <span class="tag tag-sm">Rest Assured</span>
+          <span class="tag tag-sm">Selenium</span>
+          <span class="tag tag-sm">SQL</span>
+          <span class="tag tag-sm">TestNG</span>
+        </div>
+        <a href="#" class="project-link">View repository →</a>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ================= CONTACT ================= -->
+  <section id="contact" class="section container contact-section">
+    <p class="section-kicker">// contact.sh</p>
+    <h2 class="section-title">Let's Talk</h2>
+    <p class="contact-status">
+      <span class="status-dot" aria-hidden="true"></span>
+      Open to Software QA Engineer opportunities
+    </p>
+
+    <div class="contact-grid">
+      <a href="mailto:your.email@example.com" class="contact-card">
+        <span class="contact-label">email</span>
+        <span class="contact-value"><!-- EDIT: your email -->your.email@example.com</span>
+      </a>
+      <a href="https://linkedin.com/in/your-profile" target="_blank" rel="noopener" class="contact-card">
+        <span class="contact-label">linkedin</span>
+        <span class="contact-value"><!-- EDIT: your linkedin -->linkedin.com/in/your-profile</span>
+      </a>
+      <a href="https://github.com/your-username" target="_blank" rel="noopener" class="contact-card">
+        <span class="contact-label">github</span>
+        <span class="contact-value"><!-- EDIT: your github -->github.com/your-username</span>
+      </a>
+      <a href="tel:+910000000000" class="contact-card">
+        <span class="contact-label">phone</span>
+        <span class="contact-value"><!-- EDIT: your phone -->+91 00000 00000</span>
+      </a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <span>© <span id="year"></span> Pramodh Kumar S.</span>
+    <span class="footer-muted">Built with HTML, CSS &amp; a little bit of QA discipline.</span>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
